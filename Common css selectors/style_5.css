@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ccc;
+  margin-top: 50px;
+}
+
+#programmer {
+  background: yellow;
+  color: black;
+  padding: 10px;
+
+}
+
+.name {
+  background-color: green;
+  color: white;
+  text-align: center;
+  font-weight: 800;
+  padding: 10px;
+  font-family: 'Combo', cursive;
+}
+
+.parent > p {
+  text-align: justify;
+  font-size: 20px;
+  background: blue;
+  color: white;
+  font-weight: 600;
+  line-height: 1.5;
+  padding: 10px;
+}
+
+p {
+  text-align: justify;
+  font-size: 20px;
+  background: red;
+  color: white;
+  font-weight: 600;
+  line-height: 1.5;
+  padding: 10px;
+}
+button {
+  padding: 13px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+a {
+  font-size: 18px;
+  display: block;
+  margin-top: 20px;
+  padding: 10px;
+  text-decoration: none;
+}
+[disabled] {
+  background: yellow;
+  color: black;
+}

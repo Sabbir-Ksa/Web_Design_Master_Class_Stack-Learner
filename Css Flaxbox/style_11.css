@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 80vw;
+  height: 90vh;
+  margin: 50px auto;
+  padding: 1rem;
+  background-color: #ccc;
+  display: flex;
+  gap: 1rem;
+  /* 
+  flex-direction: column; */
+  /* flex-direction: column-reverse; */
+  flex-flow: row wrap;
+  /* flex-wrap: wrap-reverse; */
+  /* flex-wrap: wrap; */
+  /* flex-direction: row-reverse; */
+  /* flex-direction: row; */
+  justify-content: center;
+  /* justify-content: flex-start; */
+  /* justify-content: flex-end; */
+  /* justify-content: space-around; */
+  /* justify-content: space-between; */
+  align-items: center;
+  /* align-items: flex-start; */
+  /* align-items: flex-end; */
+  /* align-items: stretch;=don't work */
+  /* align-items: baseline;=????? */
+  /* align-content: space-between; */
+  /* align-content: space-around; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* align-items: center; */
+  /* align-content: flex-end; */
+  /* align-content: flex-start; */
+  /* align-content: center; */
+  /* align-content: stretch; */
+  /* align-content: space-around; */
+}
+
+.box-1 {
+  background-color: red;
+  color: #fff;
+  width: 100px;
+  height: 100px;
+  /* flex-grow: 1; */
+  /* align-self: center; */
+  /* align-self: flex-end; */
+  
+}
+.box-2 {
+  background-color: green;
+  color: #fff;
+  width: 100px;
+  height: 100px;
+  /* flex-shrink: 0; */
+  /* flex-grow: 5; */
+  /* flex: 0 0 200px; */
+ 
+}
+.box-3 {
+  background-color: yellowgreen;
+  color: #fff;
+  width: 100px;
+  height: 100px;
+  /* flex-grow: 2; */
+  /* flex-basis: 150px;
+} */

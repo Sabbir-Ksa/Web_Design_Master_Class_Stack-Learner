@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Combo&family=Poppins:wght@400;500;600&display=swap");
+/* font-family: 'Combo', cursive;
+
+*/
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  width: 900px;
+  margin: 50px auto;
+}
+.clear-fix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.me {
+  font-style: 30px;
+  font-weight: 700;
+  font-family: "Combo", cursive;
+}
+
+.para {
+  font-style: 20px;
+  line-height: 1.5;
+  font-weight: 500;
+  margin: 18px 0;
+}
+img {
+  float: left;
+  margin-right: 20px;
+}

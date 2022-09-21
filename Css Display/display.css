@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.section-a {
+  display: inline-block;
+  border: 1px solid red;
+  padding: 10px;
+  margin: 10px;
+}
+.section-b {
+  display: inline-block;
+  border: 1px solid red;
+  padding: 10px;
+  margin: 10px;
+}
+
+.span-a {
+  display: block;
+  border: 1px solid red;
+  padding: 10px;
+  margin: 10px;
+}
+.span-b {
+  display: block;
+  border: 1px solid red;
+  padding: 10px;
+  margin: 10px;
+}

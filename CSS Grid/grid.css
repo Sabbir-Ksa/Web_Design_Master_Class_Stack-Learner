@@ -3,11 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: powderblue;
+}
 
 .container {
   margin-top: 50px auto;
-  background-color: #ccc;
   height: 500px;
+  color: #fff;
   display: grid;
   gap: 10px;
   grid-template-columns: repeat(3, 150px);
@@ -34,17 +37,28 @@
   background-color: #c0392b;
 }
 .item_6 {
-  background-color: #e67e22;
+  background-color: #2ecc71;
 }
 
 /* Defining a grid */
 .container_2 {
   margin: 25px auto;
   height: 400px;
+  color: #fff;
   display: grid;
-  grid-template-columns: repeat(3, 120px);
   gap: 10px;
-  grid-template-rows: repeat(3, 120px);
+  /* grid-template-columns: repeat(3, 120px); */
+  grid-template-columns: [cal1-start] 120px [cal2-start] 120px [cal3-start] 120px [cal3-end];
+  /* grid-template-rows: repeat(3, 120px); */
+  /* grid-template-columns: [cal] 120px [col]
+  120px [col] 120px [col]
+  120px;
+  grid-template-rows: [row] auto [row]
+  auto [row]; */
+  grid-template-rows:
+    [row1-start]
+    auto [row2-start]
+    auto [row2-end];
   justify-content: center;
   align-content: center;
 }
@@ -104,7 +118,7 @@
 
 /* Line-based placement shorthand - grid-row and grid-column */
 
-.a {
+/* .a {
   grid-column: 2 /3;
   grid-row: 1 / 2;
 }
@@ -127,4 +141,62 @@
 .f {
   grid-column: 3 / 4;
   grid-row: 1 / 2;
+} */
+
+/* Line-based placement shorthand - grid-area */
+/* .a{
+  grid-area: 1/ 2 / 2 /3;
+}
+.b{
+  grid-area: 2/ 2/ 3 / 3;
+}
+.c{
+  grid-area: 2 / 3 / 3 / 4;
+}
+
+.d{
+  grid-area: 1/ 1 / 2 / 2;
+}
+.e{
+  grid-area: 2 / 1 / 2 / 2;
+}
+.f{
+  grid-area: 1 / 3 / 2 / 4;
+} */
+
+/* Line-based placement spanning tracks */
+
+/* .a{
+  grid-column: 1 / 3;
+}
+.b{
+  grid-column: 3;
+  grid-row: 1 / 3;
+}
+.c{
+  grid-column: 1;
+  grid-row: 2;
+}
+.d{
+  grid-column: 2;
+  grid-row: 2;
+} */
+
+/* Line-based placement named lines */
+
+.a {
+  grid-column: cal1-start / cal3-start;
+  grid-row: row1-start;
+}
+.b {
+  grid-column: cal3-start;
+  grid-row: row1-start / row2-end;
+}
+.c {
+  grid-column: cal1-start;
+  grid-row: row2-start;
+}
+.d {
+  grid-column: cal2-start;
+  grid-row: row2-start;
 }

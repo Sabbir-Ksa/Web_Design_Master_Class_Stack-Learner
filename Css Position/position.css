@@ -10,6 +10,28 @@
   padding: 10px;
 }
 
+.header {
+  background-color: blueviolet;
+  position: fixed;
+  width: 900px;
+  top: 0;
+}
+
+nav {
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+ul li {
+  padding: 15px;
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  font-size: 20px;
+}
 .para {
   padding: 10px;
   /* display: none; */

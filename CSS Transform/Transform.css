@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  margin: 50px auto;
+  height: 70vh;
+  border: 3px solid blue;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: blueviolet;
+  /* transform: translateX(100px) translateY(100px); */
+  transform: translate(50px, 50px);
+  /* transform: translate(100px, 100px) rotate(45deg); */
+}
+
+.box:hover {
+  transform: translate(100px, 100px);
+  /* transform: translate(100px, 100px) skew(25deg); */
+}

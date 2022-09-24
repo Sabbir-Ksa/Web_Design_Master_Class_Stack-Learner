@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 50px auto;
+  background-color: #ccc;
+  border: 3px solid blue;
+  width: 900px;
+  height: 70vh;
+}
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: cornflowerblue;
+  transition: all 0.5s linear;
+}
+.box:hover {
+  background-color: chartreuse;
+  transform: translate(300px, 300px);
+}

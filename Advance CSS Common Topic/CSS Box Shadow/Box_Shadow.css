@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ccc;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.box {
+  width: 50vw;
+  /* border: 5px solid blue; */
+  padding: 15px;
+  margin: 10px 0;
+  background-color: rgb(0, 252, 101);
+  text-align: center;
+  /* box-shadow:5px 7px 10px 3px peru; */
+  box-shadow: 5px 5px 2px blue, 10px 10px 2px red, 15px 15px 2px green;
+  border-radius: 5px;
+}
+p {
+  margin: 5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 500;
+}
+
+.box-2 {
+  text-align: center;
+  color: #fff;
+  width: 200px;
+  height: 550px;
+}
+.card {
+  background-color: rgb(40, 184, 69);
+  margin-top: 80px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card > h1 {
+  width: 200px;
+  height: 150px;
+  padding-top: 57px;
+}
+.card > p {
+  width: 200px;
+  height: 70px;
+  background: #fff;
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 500;
+  padding-top: 25px;
+  margin-left: -1px;
+}
+
+.box-3 {
+  width: 250px;
+  margin: 50px auto;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box-2 img {
+  width: 100%;
+  height: auto;
+}
+.box-3 p {
+  background-color: #fff;
+  color: black;
+  width: 250px;
+  height: 70px;
+  padding-top: 28px;
+  margin-left: -1px;
+  margin-top: -1px;
+}

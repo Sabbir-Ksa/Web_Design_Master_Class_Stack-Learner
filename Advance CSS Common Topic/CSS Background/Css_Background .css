@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: cyan;
+  /* background-image: url(https://2.bp.blogspot.com/-GPdAsHwQnOE/WeyUDUgRsYI/AAAAAAAABng/fhwRc-zHaAMvkdir5hJLO0kGIQeNLpnVQCLcBGAs/s1600/i-love-me-photos-facebook-covers-hearts-divyatattva-rohit-anand.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; */
+
+  background: url(https://2.bp.blogspot.com/-GPdAsHwQnOE/WeyUDUgRsYI/AAAAAAAABng/fhwRc-zHaAMvkdir5hJLO0kGIQeNLpnVQCLcBGAs/s1600/i-love-me-photos-facebook-covers-hearts-divyatattva-rohit-anand.jpg)
+    no-repeat center fixed;
+
+  background-size: cover;
+}

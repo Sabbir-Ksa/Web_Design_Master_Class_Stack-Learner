@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: Cyan;
+  width: 100vw;
+  height: 100vh;
+  margin: 40px auto;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 20px;
+}
+
+.box-1 {
+  width: 10vw;
+  height: 10vh;
+  background-color: rgb(0, 0, 255);
+  text-align: center;
+  padding-top: 3.5vh;
+  font-weight: 500;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.box-2 {
+  width: 10vw;
+  height: 10vh;
+  background-color: #00ff00;
+  text-align: center;
+  padding-top: 3.5vh;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.box-3 {
+  width: 10vw;
+  height: 10vh;
+  background-color: DarkRed;
+  text-align: center;
+  padding-top: 3.5vh;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.box-4 {
+  width: 10vw;
+  height: 10vh;
+  background-color: rgb(0, 191, 255);
+  text-align: center;
+  padding-top: 3.5vh;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.box-5 {
+  width: 10vw;
+  height: 10vh;
+  background-color: hsl(121, 81%, 48%);
+  text-align: center;
+  padding-top: 3.5vh;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.box-6 {
+  width: 10vw;
+  height: 10vh;
+  background-color: #d64161;
+  text-align: center;
+  padding-top: 3.5vh;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}

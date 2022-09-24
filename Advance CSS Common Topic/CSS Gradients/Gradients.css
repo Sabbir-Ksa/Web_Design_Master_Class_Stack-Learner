@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 20vw;
+  height: 20vh;
+  border: 2px solid blue;
+  display: inline-block;
+  margin: 20px 50px;
+}
+.box-1 {
+  background-image: linear-gradient(to top, red, yellow);
+}
+.box-2 {
+  background-image: linear-gradient(to bottom right, red, yellow);
+}
+
+.box-3 {
+  background-image: linear-gradient(red, yellow, green);
+}
+
+.box-4 {
+  background-image: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+}
+.box-5 {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgba(255, 0, 0, 1)
+  );
+}
+.box-6 {
+  background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
+}
+.box-7 {
+  background-image: radial-gradient(red, yellow, green);
+}
+.box-8 {
+  background-image: radial-gradient(red 5%, yellow 15%, green 60%);
+}
+.box-9 {
+  background-image: radial-gradient(circle, red, yellow, green);
+}
+.box-10 {
+  background-image: radial-gradient(
+    closest-side at 60% 55%,
+    red,
+    yellow,
+    black
+  );
+}
+.box-11 {
+  background-image: radial-gradient(
+    farthest-side at 60% 55%,
+    red,
+    yellow,
+    black
+  );
+}
+.box-12 {
+  background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+}
+.box-13 {
+  background-image: conic-gradient(red, yellow, green);
+}
+.box-14 {
+  background-image: conic-gradient(red, yellow, green, blue, black);
+}
+.box-15 {
+  background-image: conic-gradient(red 45deg, yellow 90deg, green 210deg);
+}
+.box-16 {
+  background-image: conic-gradient(red, yellow, green, blue, black);
+}
+.box-17 {
+  background-image: conic-gradient(
+    red 0deg,
+    red 90deg,
+    yellow 90deg,
+    yellow 180deg,
+    green 180deg,
+    green 270deg,
+    blue 270deg
+  );
+}
+.box-18 {
+  background-image: conic-gradient(from 90deg, red, yellow, green);
+}
+.box-19 {
+  background-image: conic-gradient(at 60% 45%, red, yellow, green);
+}
+.box-20 {
+  background-image: repeating-conic-gradient(red 10%, yellow 20%);
+}
+.box-21 {
+  background-image: repeating-conic-gradient(
+    red 0deg 10deg,
+    yellow 10deg 20deg,
+    blue 20deg 30deg
+  );
+}
+.box- {
+}
+.box- {
+}

@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+a,
+a:link {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: blue;
+}
+a:hover {
+  color: green;
+  text-decoration: underline;
+  font-weight: bold;
+}

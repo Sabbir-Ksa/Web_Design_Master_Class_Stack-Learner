@@ -46,6 +46,10 @@ li::marker {
   background-color: blueviolet;
 }
 .box-2 ul li {
+<<<<<<< HEAD
+=======
+  color: white;
+>>>>>>> develop
   margin-left: 15px;
   list-style: none;
   font-size: 20px;

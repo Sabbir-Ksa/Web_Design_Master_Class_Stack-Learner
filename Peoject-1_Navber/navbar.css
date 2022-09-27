@@ -1,0 +1,158 @@
+/* link Google Icon */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100vw;
+  min-width: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+nav {
+  width: 100%;
+  height: 65px;
+  background-color: #130f40;
+}
+.container {
+  width: 60%;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.brand-section {
+  display: flex;
+  align-items: center;
+}
+
+.brand-logo {
+  margin-right: 1rem;
+}
+.brand-logo span {
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.brand-title a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-section {
+  display: flex;
+}
+
+.main-section a,
+.right-section a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 2rem;
+}
+
+.main-section a:hover,
+.right-section a:hover {
+  color: yellowgreen;
+  text-decoration: underline;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.right-section button {
+  margin-left: 1.5rem;
+  background-color: transparent;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.right-section button span {
+  font-size: 2rem;
+}
+
+.dropdown {
+  position: relative;
+}
+.dropdown:hover .dropdown-item {
+  display: block;
+}
+
+.dropdown .dropdown-item {
+  position: absolute;
+  right: 0;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 gray;
+  width: 200px;
+  border-radius: 0.15rem;
+  display: none;
+}
+
+.dropdown-item-ul {
+  list-style-type: none;
+}
+
+.dropdown-item-li {
+  padding: 10px;
+  text-align: left;
+}
+.dropdown-item-li:hover {
+  background-color: #ccc;
+}
+.dropdown-item-li > a {
+  color: #333;
+  font-weight: bold;
+  letter-spacing: normal;
+  font-size: 0.9rem;
+}
+
+.divider {
+  border: none;
+  /* border: 1px solid blue; */
+}
+
+.mega-menu {
+  position: relative;
+  padding: 1rem 0;
+}
+.mega-menu:hover .mega-menu-container {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem 0;
+}
+.mega-menu-container {
+  position: absolute;
+  top: 100%;
+  width: 490px;
+  height: 350px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 gray;
+  display: none;
+  padding: 1rem 2rem;
+}
+
+.category {
+}
+.category-list {
+  list-style-type: none;
+  margin-top: 0.5rem;
+}
+.category-list li {
+  padding: 0.5rem 1rem;
+}
+.category-list li a {
+  color: #333;
+  font-size: 0.8rem;
+  text-align: left;
+  margin-left: -13px;
+}
+.category-list li a:hover {
+  color: green;
+}

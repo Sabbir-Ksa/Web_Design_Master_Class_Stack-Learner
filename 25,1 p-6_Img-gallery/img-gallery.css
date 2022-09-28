@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 850px;
+  margin: 20px auto;
+}
+.heading {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.gallery > img {
+  margin: 5px;
+  border: 3px solid blue;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  width: 250px;
+  height: 180px;
+  object-fit: cover;
+  object-position: center;
+}
